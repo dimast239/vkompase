@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru-ru" lang="ru-ru" dir="ltr">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Removed by WebCopy --><!--<base href="https://kompaswork.ru/stati.html">--><!-- Removed by WebCopy -->
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="keywords" content="САПР, черчение на компьютере, 3D модель, AUTOCAD, КОМПАС-3D">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="generator" content="Joomla! - Open Source Content Management">
+	<title>Начертательная геометрия. Часть 2</title>
+	<link href="images/logo/karandashkin.png" rel="shortcut icon" type="image/vnd.microsoft.icon">
+	<link href="plugins/system/bdthemes_shortcodes/css/shortcode-ultimate.css" rel="stylesheet" type="text/css">
+	<link href="plugins/system/bdthemes_shortcodes/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<script src="media/jui/js/jquery.min.js?b2ea226ea25f73b196e6c6f81f2cce6b" type="text/javascript"></script>
+	<script src="media/jui/js/jquery-noconflict.js?b2ea226ea25f73b196e6c6f81f2cce6b" type="text/javascript"></script>
+	<script src="media/jui/js/jquery-migrate.min.js?b2ea226ea25f73b196e6c6f81f2cce6b" type="text/javascript"></script>
+	<script src="plugins/system/bdthemes_shortcodes/js/shortcode-ultimate.js" type="text/javascript"></script>
+	<script src="media/system/js/caption.js?b2ea226ea25f73b196e6c6f81f2cce6b" type="text/javascript"></script>
+	<script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+	</script>
+	<meta property="og:url" content="https://kompaswork.ru/stati.html">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Начертательная геометрия. Часть 2">
+	<meta property="og:description" content="Линии чертежа Начертательная геометрия является технической учебной дисциплиной, изучаемой в ВУЗах. Она изучает и объясняет способы изображений пространств...">
+
+   	<link rel="stylesheet" href="media/jui/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="templates/shaper_helix3/css/frontend-edit.css" type="text/css">
+    <link rel="stylesheet" href="templates/shaper_helix3/css/template.css" type="text/css">
+
+<!-- BEGIN Advanced Google Analytics - http://deconf.com/advanced-google-analytics-joomla/ -->
+<script>
+(function($){
+    $(window).load(function() {
+            $('a').filter(function() {
+				return this.href.match(/.*\.(zip|mp3*|mpe*g|pdf|docx*|pptx*|xlsx*|jpe*g|png|gif|tiff|rar*)(\?.*)?$/);
+            }).click(function(e) {
+                ga('send','event', 'download', 'click', this.href);
+            });
+            $('a[href^="mailto"]').click(function(e) {
+                ga('send','event', 'email', 'send', this.href);
+             });
+            var loc = location.host.split('.');
+            while (loc.length > 2) { loc.shift(); }
+            loc = loc.join('.');
+            var localURLs = [
+                              loc,
+                              'www.kompaswork.ru'
+                            ];
+            $('a[href^="http"]').filter(function() {
+			if (!this.href.match(/.*\.(zip|mp3*|mpe*g|pdf|docx*|pptx*|xlsx*|jpe*g|png|gif|tiff|rar*)(\?.*)?$/)){
+				for (var i = 0; i < localURLs.length; i++) {
+					if (this.href.indexOf(localURLs[i]) == -1) return this.href;
+				}
+			}
+            }).click(function(e) {
+                ga('send','event', 'outbound', 'click', this.href);
+            });
+    });
+})(jQuery);
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-92932433-2', 'auto');  
+  
+ga('require', 'displayfeatures');
+ga('set', 'anonymizeIp', true);
+ga('set', 'dimension1', 'Super User');
+ga('set', 'dimension2', 'Статьи');
+ga('set', 'dimension3', '2020');
+ga('set', 'dimension4', 'guest');
+ga('send', 'pageview');
+</script>
+<!-- END Advanced Google Analytics -->
+
+
+</head>
+<body class="contentpane">
+	<div id="system-message-container">
+	</div>
+
+	<article class="item item-page" itemscope="" itemtype="http://schema.org/Article">
+	<meta itemprop="inLanguage" content="ru-RU">
+	
+	
+
+	<div class="entry-header">
+		
+		
+			</div>
+
+					
+	
+	
+				
+	
+			<div itemprop="articleBody">
+		<p class="space60">
+<div style="padding:25px 45px 20px 45px; background:#ffffff;">
+<p style="margin:10px 0px 10px 0px">
+<div style="font-family: 'noto sans';font-size: 28px; padding:20px 0; text-align:center;color: #333;font-weight:bold;">Линии чертежа</div>
+<p style="margin:10px 0px 10px 0px">
+<p class="e-contents text-left">Начертательная геометрия является технической учебной дисциплиной, изучаемой в ВУЗах. Она изучает и объясняет способы изображений пространственных форм (линий, поверхностей, тел) на области и способы решений вопросов геометрического характера по заданным изображениям указанных форм.</p>
+<div class="icons">
+<div class="btn-group pull-right"> <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton-25" aria-label="Инструменты пользователя" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="icon-cog" aria-hidden="true"></span> <span class="caret" aria-hidden="true"></span> </button>
+<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton-15"> 
+<li class="print-icon"> <a href="stati-9.html?view=article&amp;id=25:descriptive-geometry&amp;catid=12&amp;tmpl=component&amp;print=1&amp;layout=default" title="Распечатать материал <Начертательная геометрия>" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">Печать</a> </li>
+ </ul>
+ </div>
+ </div>
+<p class="e-contents text-left"><b>СПЛОШНАЯ ТОЛСТАЯ ЛИНИЯ (стл)</b> – отображение ортогонального и аксонометрического чертежа. Это результат прямоугольного проецирования видимых зрителю ребер объёмного объекта и контуров его кривых поверхностей. Согласно гост 2.303-68 стл используется для изображения линий рамки и основной надписи чертежа.</p>
+<p class="e-contents text-left"><b>СПЛОШНАЯ ТОНКАЯ ЛИНИЯ (стнл)</b> – вертикальные и горизонтальные линии чертежа, соединяющие между собой следов смежных проекционных плоскостей какой-либо вершины трехмерного объекта. Стнл используются на учебных чертежах, на производственных чертежах и называются проекционными линиями связи.</p>
+<p class="e-contents text-left"><b>ШТРИХОВАЯ ЛИНИЯ (шл)</b> – изображение на ортогональном и аксонометрическом чертежах контуров кривых поверхностей трехмерного объекта, не видимых зрителю. Гост 2.303-68 предлагает толщину шл на половину тоньше линий видимого контура объекта, изображаемого стл. При изображении шл понимается черточка короткий отрезок.</p>
+<p class="e-contents text-left"><b>ШТРИХПУНКТИРНАЯ ЛИНИЯ (шпл)</b> – рисунок на ортогональном и аксонометрическом чертеже предполагаемых линий: осей вращения, координат, симметрии. Указанные линии не являются частью конструкции проецируемого объекта, они не имеют реальной материализации. Использование на чертеже различных осей уточняет графическую историю о устройстве и технологии производства 3D объекта. Подробнее о выполнении чертежей и 3D объёмного моделирования можно узнать <a href="index.htm">тут</a>. Например, изображение шпл обращает призор на симметричность частей объекта, а изображение оси вращения кривой поверхности цилиндрического отверстия указывает направление движения оси бора при изготовлении этого отверстия. Шпл представляет собой чередование коротких линий и точек. Штрих понимается как черточка, короткий отрезок, а пунктир – (.). Применение на чертеже данной линии регламентируется гостом 2.303-68, в соответствии которому линия выступает за изображение от 2 до 7 мм.</p>
+<p class="e-contents text-left"><b>ПРОЕЦИРОВАНИЕ ПРЯМОЙ ЛИНИИ</b> – это траектория движущейся в пространстве (.). Выделяют: кривые и прямые линии.</p>
+<p class="e-contents text-left"><b>ПРЯМАЯ ЛИНИЯ (пл)</b> – линия, образованная перемещением точки, не меняющей направления своего вектора в пространстве. Её положение в пространстве исследовать относительно плоскостей проекций П<sub>1</sub>, П<sub>2</sub> и П<sub>3</sub>. Различают пл общего частного положения.
+<b>ПРЯМАЯ ЛИНИЯ ОБЩЕГО ПОЛОЖЕНИЯ (плоп)</b> – пл не &#8741; ни одной из плоскостей проекций и расположенная к каждой из них под углом не равным 90<sup>о</sup>. На чертеже тень такой прямой всегда не &#8741; и не &#10178; осям координат. Размер координаты Y начала прямой линии всегда больше, чем у точки ее конца. Ни одна из проекций плоп не показывает длину и угол наклона к плоскости проекций. Любая проекция такой пл меньше самой прямой. По мере удаления от наблюдателя различают восходящую и нисходящую плоп.</p>
+<p class="e-contents text-left"><b>ВОСХОДЯЩАЯ ПРЯМАЯ ЛИНИЯ ОБЩЕГО ПОЛОЖЕНИЯ (вплоб)</b> – пл, восходящая по мере удаления от зрителя. На чертеже размер координаты Z начала такой прямой всегда меньше, чем у точки окончания траектории этой прямой. В зависимости от того, где расположен конец вплоб, различают восходящую вправо и восходящую влево пл.</p>
+<img class="center-block" src="images/articles/09/1.voskhodyashhaya-pryamaya-liniya.jpg" alt="восходящая линия" title="восходящая линия">
+<p style="margin:10px 0px">
+<p class="e-contents text-left"><b>НИСХОДЯЩАЯ ПРЯМАЯ ЛИНИЯ ОБЩЕГО ПОЛОЖЕНИЯ (нплоп)</b> – пл, убывающая по мере удаления от зрителя. На чертеже размер координаты Z начала такой прямой всегда больше, чем у точки окончания этой прямой. В зависимости от того, где расположен финиш восходящей прямой относительно наблюдателя, различают нисходящую вправо и нисходящую влево пл.</p>
+<img class="center-block" src="images/articles/09/2.niskhodyashhaya-pryamaya-liniya.jpg" alt="нисходящая линия" title="нисходящая линия">
+<p style="margin:10px 0px">
+<p class="e-contents text-left"><b>ПРЯМЫЕ ЛИНИИ ЧАСТНОГО ПОЛОЖЕНИЯ (плчп)</b> – пл, ориентированы определенным образом относительно плоскостей проекций: &#8741; и &#10178; принадлежащие плоскостям проекций.</p>
+<p class="e-contents text-left"><b>ПРОЕЦИРУЮЩАЯ ПРЯМАЯ ЛИНИЯ (ппл)</b> – пл, &#10178; плоскости проекций и при этом &#8741; двум другим плоскостям проекций. Проекция прямой линии обращается точку на той плоскости, относительно которой отрезок &#10178;, а на плоскостях проекций, которым она &#8741;, проецируется в натуральную величину (нв). Различают: горизонтально проецирующие, фронтально проецирующие, профильно проецирующие пл.</p>
+<p class="e-contents text-left"><b>ГОРИЗОНТАЛЬНО ПРОЕЦИРУЮЩАЯ ПРЯМАЯ ЛИНИЯ (гппл)</b> – пл, &#10178; горизонтальной плоскости проекций П<sub>1</sub> и при этом &#8741; фронтальной П<sub>2</sub> и профильной П<sub>3</sub> плоскостям проекций. Фронтальная и профильная проекции (фпп) ортогонального чертежа этой прямой равны ее нв и расположены &#8741; оси координат Z, а горизонтальная проекция – (.). Размеры одноименных координат Y и X всех точек такой пл равны, а размеры координаты Z отличаются друг от друга.</p>
+<img class="center-block" src="images/articles/09/3.gorizontalno-proetsiruyushhaya-pryamaya-liniya.jpg" alt="горизонтально проецирующая линия" title="горизонтально проецирующая линия">
+<p style="margin:10px 0px">
+<p class="e-contents text-left"><b>ФРОНТАЛЬНО ПРОЕЦИРУЮЩАЯ ПРЯМАЯ ЛИНИЯ (фппл)</b> – пл, &#10178; фронтальной плоскости проекций П<sub>2</sub> и при этом &#8741; горизонтальной П<sub>1</sub> и профильной П<sub>3</sub> плоскостям проекций. Гпп ортогонального чертежа этой пл равны ее нв и расположены &#8741; оси координат Y, а фронтальная проекция – (.). Все (.) такой прямой имеют равные одноименные размеры координат X и Z.</p>
+<img class="center-block" src="images/articles/09/4.frontalno-proetsiruyushhaya-pryamaya-liniya.jpg" alt="фронтально проецирующая линия" title="фронтально проецирующая линия">
+<p style="margin:10px 0px">
+<p class="e-contents text-left"><b>ПРОФИЛЬНО ПРОЕЦИРУЮЩАЯ ПРЯМАЯ ЛИНИЯ (пппл)</b> – пл, &#10178; профильной плоскости проекций П<sub>3</sub> и при этом &#8741; горизонтальной П<sub>1</sub> и фронтальной П<sub>2</sub> плоскостям проекций. Горизонтальная и фронтальная проекции ортогонального чертежа этой прямой линии равны ее натуральной длине и расположены параллельно оси координат X, а профильная проекция – (.). Все точки такой пл имеют равные одноименные координаты Y и Z.</p>
+<img class="center-block" src="images/articles/09/5.profilno-proetsiruyushhaya-pryamaya-liniya.jpg" alt="профильно проецирующая линия" title="профильно проецирующая линия">
+<p style="margin:10px 0px">
+<p class="e-contents text-left"><b>ПРЯМАЯ ЛИНИЯ УРОВНЯ (плу)</b> – пл, &#8741; одной из плоскостей проекций, на которую она проецируется без изменения, и проекция которой устанавливает углы наклона этой прямой к двум другим плоскостям проекций. При этом пл уровня не &#8741; и не &#10178; двум другим плоскостям проекций и проецируется на эти плоскости с изменением размера длины.  Делятся на: горизонтальную, фронтальную и профильную прямые линии уровня.</p>
+<p class="e-contents text-left"><b>ГОРИЗОНТАЛЬНАЯ ПРЯМАЯ ЛИНИЯ УРОВНЯ (гплу)</b> – это пл, &#8741; горизонтальной плоскости проекций П<sub>1</sub> и при этом не &#8741; и не &#10178; фронтальной П<sub>2</sub> и профильной <sub>3</sub> плоскостям проекций. Используется сокращенное название горизонтальное расстояние уровня, либо ее называют горизонталью и на чертеже обозначают буквой h. Так как все точки этой прямой линии равноудалены от плоскости проекций П<sub>1</sub>, то фпп прямой соответственно &#8741; координатным осям X и Y. На плоскость проекций П<sub>1</sub> горизонталь h проецируется без изменения своей длины и размеров углов наклона к плоскостям проекций П<sub>2</sub> и П<sub>3</sub>.</p>
+<p class="e-contents text-left"><b>ФРОНТАЛЬНАЯ ПРЯМАЯ ЛИНИЯ УРОВНЯ (фплу)</b> – это пл, &#8741; фронтальной плоскости проекций П<sub>2</sub>. Используется сокращенное название фронталь и на чертеже обозначают f. Так как все точки этой пл равноудалены от плоскости проекций П<sub>2</sub>, то гпп данной прямой соответственно &#8741; координатным осям X и Z. На плоскость проекций П<sub>2</sub> без искажения проецируется длина отрезка прямой f и углы наклона этой прямой линии к плоскостям проекций П<sub>1</sub> и П<sub>2</sub>.</p>
+<img class="center-block" src="images/articles/09/6.frontalnaya-pryamaya-liniya-urovnya.jpg" alt="фронтальная линия уровня " title="фронтальная линия уровня">
+<p style="margin:10px 0px">
+<p class="e-contents text-left"><b>ПРОФИЛЬНАЯ ПРЯМАЯ ЛИНИЯ УРОВНЯ (пплу)</b> – это пл, &#8741; профильной плоскости проекций П<sub>3</sub>. Используется сокращенное название профильная пу, которая на чертеже обозначается p. Так как все точки этой прямой линии равноудалены от плоскости проекций П<sub>3</sub>, то гфп данной прямой соответственно параллельны координатным осям Y и Z. На плоскость П<sub>3</sub> проецируются без искажения отрезок этой прямой p и углы наклона прямой к плоскостям проекций П<sub>1</sub> и П<sub>2</sub>. Если пплу, удаляясь от наблюдателя, поднимается, то называют восходящей. Если же пплу от наблюдателя удаляется вниз, то она считается нисходящей.</p>
+<p class="e-contents text-left"><b>ЛИНИИ НУЛЕВОГО УРОВНЯ (лну)</b> – пл, принадлежащие плоскостям проекций. Это частный случай горизонтальных, фронтальных и профильных прямых линий уровня. Они обозначаются: h<sub>0</sub>, f<sub>0</sub>, p<sub>0</sub>. Так как данные линии находятся на поверхностях плоскостей проекций, то одна из координат (.) этих прямых равна 0. На эпюре две проекции лну конкурируют с осями координат, а третья проекция дает возможность определить нв этой прямой и углы наклона к плоскостям проекций.</p>
+<p class="e-contents text-left"><b>СЛЕД ПРЯМОЙ ЛИНИИ (спл)</b> – (.), в которой она пересекается с плоскостью проекций, т.е. (.), принадлежащая одновременно и прямой и плоскости проекций. Следы прямой являются (.) частного положения, в них пл переходит из одного октанта в другой. В общем случае пл может пересекать все три плоскости проекций и иметь три следа. Так как спл принадлежит плоскости проекций, одна из его координат равна 0. Различают: горизонтальный, фронтальный и профильный следы прямой.</p>
+<img class="center-block" src="images/articles/09/8.sled-pryamoj-linii.jpg" alt="след прямой линии" title="след прямой линии">
+<p style="margin:10px 0px">
+<p class="e-contents text-left"><b>ВЗАИМНОЕ ПРОСТРАНСТВЕННОЕ РАСПОЛОЖЕНИЕ ПРЯМЫХ ЛИНИЙ</b></p>
+<p class="e-contents text-left"><b>ПЕРЕСЕКАЮЩИЕСЯ ПРЯМЫЕ ЛИНИИ (ппл)</b> – это пл, имеющие одну общую (.). Проекция (.) пересечения прямых линий есть (.) пересечения проекций этих прямых. Проекции (.) пересечения пл на смежных плоскостях проекций лежат на одной проекционной линии связи, перпендикулярной оси координат.</p>
+<img class="center-block" src="images/articles/09/9.peresekayushhiesya-pryamye-linii.jpg" alt="пересекающиеся прямые линии" title="пересекающиеся прямые линии">
+<p style="margin:10px 0px">
+<p class="e-contents text-left"><b>СКРЕЩИВАЮЩИЕСЯ ПРЯМЫЕ ЛИНИИ (спл)</b> – это пл, не пересекающиеся и не &#8741; между собой, лежащие в двух &#8741; плоскостях. На эпюре точки пересечения проекций этих прямых линий не лежат на одном отрезке проекционной связи. Для определения какая из изображенных на чертеже пл выше другой или ближе другой к наблюдателю анализируют положение конкурирующих (.) этих прямых.</p>
+<img class="center-block" src="images/articles/09/10.skreshhivayushhiesya-pryamye-linii.jpg" alt="скрещивающиеся прямые линии" title="скрещивающиеся прямые линии">
+<p style="margin:10px 0px">
+<p class="e-contents text-left">Если через спл можно провести проецирующие плоскости, то тогда тени этих прямых будут &#8741; на плоскости проекций, которой были &#10178; вводимые плоскости.</p>
+<p class="e-contents text-left"><b>ПАРАЛЛЕЛЬНЫЕ ПРЯМЫЕ ЛИНИИ (ппл)</b> – пл, расположенные в одной плоскости на не меняющемся расстоянии друг от друга на всем своем протяжении. ппл пересекаются только в несобственной (.). Проекции ппл на любую плоскость проекций – &#8741;. Особый случай представляют собой пл, &#8741; одной из плоскостей проекций. Для оценки взаимного положения таких пл следует построить эпюр.</p>
+<p class="e-contents text-left"><b>КОНКУРИРУЮЩИЕ ПРЯМЫЕ ЛИНИИ (кпл)</b> – пл, расположенные в одной проецирующей плоскости, т.е. в плоскости &#10178; какой-либо плоскости проекций. На чертеже кпл проецируются в одну линию на одной из плоскостей проекций. Конкурирующими могут быть пересекающиеся или &#8741; прямые, но не скрещивающиеся. В зависимости от положения проецирующей плоскости, в которой расположены пл, разделяют их на: горизонтально конкурирующие, фронтально конкурирующие и профильно конкурирующие пл.</p>
+<p class="e-contents text-left"><b>ГОРИЗОНТАЛЬНО КОНКУРИРУЮЩИЕ ПРЯМЫЕ ЛИНИИ (гкпл)</b> – пл, расположенные на поверхности плоскости &#10178; горизонтальной плоскости проекций П<sub>1</sub>. Горизонтальные проекции таких пл конкурируют с горизонтальным следом плоскости, которой они принадлежат.</p>
+<img class="center-block" src="images/articles/09/11.gorizontalno-konkuriruyushhie-pryamye-linii.jpg" alt="горизонтально конкурирующие прямые линии" title="горизонтально конкурирующие прямые линии ">
+<p style="margin:10px 0px">
+<p class="e-contents text-left"><b>ФРОНТАЛЬНО КОНКУРИРУЮЩИЕ ПРЯМЫЕ ЛИНИИ (фкпл)</b> – пл, расположенные на поверхности фронтально проецирующей плоскости. Фп таких пл совмещены с фронтальным следом плоскости, которой они принадлежат.</p>
+<img class="center-block" src="images/articles/09/12.frontalno-konkuriruyushhie-pryamye-linii.jpg" alt="фронтально конкурирующие прямые линии" title="фронтально конкурирующие прямые линии">
+<p style="margin:10px 0px">
+<p class="e-contents text-left"><b>ПРОФИЛЬНО КОНКУРИРУЮЩИЕ ПРЯМЫЕ ЛИНИИ (пкпл)</b> – пл, расположенные на поверхности профильной проецирующей плоскости. Пп таких пл совмещены с профильным следом плоскости, которой они принадлежат.</p>
+<img class="center-block" src="images/articles/09/13.profilno-konkuriruyushhie-pryamye-linii.jpg" alt="профильно конкурирующие прямые линии" title="профильно конкурирующие прямые линии">
+<p style="margin:10px 0px">
+<p class="e-contents text-left"><b>ПЕРПЕНДИКУЛЯРНЫЕ ПРЯМЫЕ ЛИНИИ (ппл)</b> – пл, образующие в пространстве прямой угол. Прямой угол могут образовывать не только пересекающиеся, но и скрещивающиеся пл. Угол, образуемый скрещивающимися пл, равен углу между &#10178; друг другу проецирующими плоскостями, в которых они находятся. Если две прямые пересекаются под прямым углом, то следы их в общем случае образуют угол, не равный 90<sup>0</sup>. Для того чтобы прямой угол проецировался в истинную величину, необходимо и достаточно, чтобы одна из его сторон была &#8741;, а другая не &#10178; плоскости проекций. Если под прямым углом пересекаются линии общего положения, то решение задачи сводится к преобразованию одной из сторон прямого угла в линию уровня.</p>
+<p class="e-contents text-left"><b>ТЕОРЕМА ОБ ОРТОГОНАЛЬНОЙ ПРОЕКЦИИ ПРЯМОГО УГЛА:</b> если одна из сторон прямого угла &#8741; плоскости проекций, а другая ей не перпендикулярна, то прямой угол проецируется ортогонально на эту плоскость проекций без искажения, т.е. прямым углом.</p>
+<img class="center-block" src="images/articles/09/14.perpendikulyarnye-pryamye-linii.jpg" alt="перпендикулярные прямые линии" title="перпендикулярные прямые линии">
+<p style="margin:10px 0px">
+<p class="e-contents text-left">Если ни одна из сторон прямого угла не является линией уровня, то необходимо преобразование чертежа, например, заменой плоскостей проекций.</p>
+  
+
+<div class="custom">
+	<!-- Социальные кнопки. Поделиться статьёй -->
+<div style="margin:25px 90px 5px 0px" class="center-block">
+<div class="social-title e-contents">
+<p>Поделиться статьёй:</p>
+  </div>
+<div style="display:inline-block">
+<ul class="social-icons-1">
+<li class="vk"><a href="#vk" onclick="window.open('https://vk.com/share.php?url='+ window.location.href,'vk-window', 'width=400,height=300,top=300, left=200,top=100, status=no,toolbar=no,menubar=no')"><i class="fa fa-vk"></i></a></li>
+<li class="odnoklassniki"><a href="#ok" onclick="window.open('https://connect.ok.ru/offer?url='+ window.location.href,'ok-window', 'width=400,height=300,top=300, left=200,top=100, status=no,toolbar=no,menubar=no')"><i class="fa fa-odnoklassniki"></i></a></li>
+<li class="facebook"><a href="#facebook" onclick="window.open('https://www.facebook.com/sharer.php?src=sp&amp;u='+ window.location.href,'facebook-window', 'width=400,height=300,top=300, left=200,top=100, status=no,toolbar=no,menubar=no')"><i class="fa fa-facebook"></i></a></li>
+<li class="twitter"><a href="#twitter" onclick="window.open('https://twitter.com/intent/tweet?url='+ window.location.href,'twitter-window', 'width=400,height=300,top=300, left=200,top=100, status=no,toolbar=no,menubar=no')"><i class="fa fa-twitter"></i></a></li>
+<li class="tumblr"><a href="#tumblr" onclick="window.open('http://tumblr.com/widgets/share/tool?canonicalUrl='+ window.location.href,'tumblr-window', 'width=400,height=300,top=300, left=200,top=100, status=no,toolbar=no,menubar=no')"><i class="fa fa-tumblr"></i></a></li>
+    </ul>
+  </div>
+</div>
+</div>
+
+</div>
+	</div>
+
+	
+	
+				
+	
+	
+	
+</article>
+
+</body>
+</html>
